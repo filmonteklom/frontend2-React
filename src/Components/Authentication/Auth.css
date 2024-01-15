@@ -1,0 +1,113 @@
+
+
+.container {
+	margin: 70px;
+	width: 400px;
+ }
+ 
+ 
+ .input {
+	width: 300px;
+	height: 40px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	font-size: 16px;
+}
+
+ 
+ .input-field:focus {
+	border-color: #007bff;
+	box-shadow: 0 0 5px rgba(0,123,255,.5);
+ }
+ 
+
+
+ /* Login form css code */
+/* LoginForm.css */
+
+/* Add the gradient to the body or main container to match the image */
+body, .App {
+	height: 100vh;
+	background: linear-gradient(135deg, #EC77AB 0%, #7873F5 100%);
+	font-family: 'Arial', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Customize the card to have rounded corners and shadow */
+.card {
+	border-radius: 20px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+
+/* Add gradient to the card header */
+.card-body {
+	background: linear-gradient(135deg, #FAB2FF 0%, #1904E5 100%);
+}
+
+/* Style the button with a gradient background */
+button.btn-primary {
+	background: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+	border: none;
+	padding: 10px 30px;
+	margin-top: 10px;
+	border-radius: 20px;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+	transition: background 0.3s ease-in-out;
+	moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+
+/* New hover effect  */
+button.btn-primary:hover{
+	background: linear-gradient(90deg, #009B9E 0%, #D700D9 100%);
+	cursor: pointer;
+	moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+
+button.btn-primary:focus {
+	outline: none;
+}
+
+h1 {
+	font-size: 2rem;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.form-control {
+	margin-bottom: 20px;  
+}
+
+/* Style the input fields */
+.form-control {
+	border-radius: 20px;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.1);
+	color: #fff;
+}
+
+.form-control::placeholder {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+/* Customize the register link */
+a {
+	color: #00DBDE;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+

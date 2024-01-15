@@ -1,0 +1,27 @@
+.h1 {
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 30px); /* Center horizontally and move 30px down */
+	z-index: 2; /* Higher z-index so it appears above the video */
+ }
+ 
+
+.background-video {
+	position: absolute;
+	top: 0%;
+	left: 0;
+	width: 100vw;
+	height: calc(100vh - 18%);
+	z-index: -1;
+	object-fit: cover;
+ }
+ 
+ .main-content {
+	position: relative;
+	height: calc(100vh - 18%);
+	width: 100vw;
+	z-index: 1;
+ }
+ 
